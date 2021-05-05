@@ -26,7 +26,7 @@ h1 {
   line-height: 2;
   margin-top: 50px;
   font-size: 5.265rem;
-  margin-top: : 0;
+  margin-top: 0;
   font-family: 'Sacramento', cursive;
 }
 
@@ -89,7 +89,7 @@ float: left;
 
 a {
 
-  color: ##11999E;
+  color: #11999E;
   font-weight: normal;
   text-decoration: none;
   margin: 10px 20px;
@@ -107,21 +107,22 @@ a:hover{
   text-align: left;
   width: 80%;
   margin: 100px auto 100px auto;
+  display: flex;
 
 }
-.para{
+/* .para{
   padding-left: 230px;
-}
+} */
 .intro{
   width: 35%;
   margin: auto;
 }
 .contact-msg{
-  width: 35%
+  width: 35%;
   margin:40px auto 60px;
 }
 .btn {
-  background: ##1e836c;
+  background: #1e836c;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
   background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
   background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
@@ -150,4 +151,17 @@ a:hover{
   color: #EAF6F6;
   font-size: 0.75rem;
   padding: 20px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  .skill-row{
+    flex-direction: column;
+  }
+}
+
+body {
+  overflow-x: hidden; /* Hide scrollbars */
 }
