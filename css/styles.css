@@ -1,6 +1,6 @@
 .top-container {
-  width:100%;
   background-color: #e0ebe8;
+ width:100%;
   position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -10,17 +10,20 @@
   min-width: fit-content;
 
 }
-.middle-container{
+
+.middle-container {
   padding: 100px 0;
 }
-.bottom-container{
+
+.bottom-container {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #66BFBF;
   font-family: 'Montserrat', serif;
   font-size: 1.25rem;
-  width:100%;
+  width: 100%;
 }
+
 body {
   margin: 0;
   text-align: center;
@@ -29,6 +32,7 @@ body {
   align-items: center;
   display: flex;
   flex-flow: column wrap;
+
 
 }
 
@@ -42,7 +46,6 @@ h1 {
 }
 
 h2 {
-
   color: #66BFBF;
   font-size: 2rem;
   font-family: 'Montserrat', sans-serif;
@@ -53,17 +56,18 @@ h3 {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
 }
-p{
+
+p {
   color: #40514E;
   font-size: 1.25rem;
   line-height: 2;
 }
-hr{
-  border:dotted #02475E 6px;
+
+hr {
+  border: dotted #02475E 6px;
   border-bottom: none;
   width: 4%;
   margin: 100px auto;
-
 }
 
 .pro {
@@ -83,7 +87,7 @@ hr{
 }
 
 .skill {
-float: left;
+  float: left;
   width: 125px;
   margin-right: 100px;
 }
@@ -99,14 +103,13 @@ float: left;
 }
 
 a {
-
   color: #11999E;
   font-weight: normal;
   text-decoration: none;
   margin: 10px 20px;
-
 }
-a:hover{
+
+a:hover {
   color: #EAF6F6;
 }
 
@@ -115,21 +118,26 @@ a:hover{
 }
 
 .skill-row {
-  text-align: left;
+  text-align: center;
   width: 80%;
   margin: 100px auto 100px auto;
-  display: flex;
 
 }
 
-.intro{
+.para {
+text-align: centre;
+}
+
+.intro {
   width: 35%;
   margin: auto;
 }
-.contact-msg{
+
+.contact-msg {
   width: 35%;
-  margin:40px auto 60px;
+  margin: 40px auto 60px;
 }
+
 .btn {
   background: #1e836c;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
@@ -156,16 +164,24 @@ a:hover{
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
-.last{
+
+.last {
   color: #EAF6F6;
   font-size: 0.75rem;
   padding: 20px 0px;
 }
-
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   body {
-    background-color: lightblue;
+    background-color: lightgreen;
   }
+}
+
+
+
+body {
+  overflow-x: hidden;
+  /* Hide scrollbars */
+}
   
 body {
   overflow-x: hidden; /* Hide scrollbars */
