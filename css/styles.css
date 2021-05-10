@@ -1,8 +1,14 @@
 .top-container {
+  width:100%;
   background-color: #e0ebe8;
   position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  min-width: fit-content;
+
 }
 .middle-container{
   padding: 100px 0;
@@ -13,12 +19,17 @@
   background-color: #66BFBF;
   font-family: 'Montserrat', serif;
   font-size: 1.25rem;
+  width:100%;
 }
 body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
   font-size: 200%;
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+
 }
 
 h1 {
@@ -110,9 +121,7 @@ a:hover{
   display: flex;
 
 }
-/* .para{
-  padding-left: 230px;
-} */
+
 .intro{
   width: 35%;
   margin: auto;
@@ -157,11 +166,7 @@ a:hover{
   body {
     background-color: lightblue;
   }
-  .skill-row{
-    flex-direction: column;
-  }
-}
-
+  
 body {
   overflow-x: hidden; /* Hide scrollbars */
 }
